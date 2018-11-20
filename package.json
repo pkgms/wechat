@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/zctod/wechat#readme",
   "dependencies": {
+    "crypto": "^1.0.1",
     "http": "0.0.0",
     "https": "^1.0.0",
     "querystring": "^0.2.0"
