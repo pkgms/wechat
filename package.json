@@ -1,0 +1,24 @@
+{
+  "name": "zctod_wechat",
+  "version": "1.0.0",
+  "description": " WeChat components",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zctod/wechat.git"
+  },
+  "author": "zctod",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zctod/wechat/issues"
+  },
+  "homepage": "https://github.com/zctod/wechat#readme",
+  "dependencies": {
+    "http": "0.0.0",
+    "https": "^1.0.0",
+    "querystring": "^0.2.0"
+  }
+}
