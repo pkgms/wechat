@@ -1,3 +1,7 @@
 'use strict';
 
-module.exports = require('./lib/wechat');
+module.exports = {
+    Wechat: require('./lib/wechat'),
+    WechatPublic: require('./lib/public'),
+    WechatXcx: require('./lib/xcx'),
+};
