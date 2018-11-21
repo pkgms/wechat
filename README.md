@@ -56,7 +56,7 @@ pub.sendTemplate(tempObj);
 ```
 配置自定义菜单
 ```javascript
-public.changeMenu(obj);
+pub.changeMenu(obj);
 ```
 公众号获取永久素材列表
 ```javascript
