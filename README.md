@@ -44,15 +44,15 @@ const pub = new Pub(config);
 ```
 获取网页授权链接
 ```javascript
-public.getAuthorizeUrl(redirectUri, scopeType, state = null);
+pub.getAuthorizeUrl(redirectUri, scopeType, state = null);
 ```
 检验微信开发者
 ```javascript
-public.checkToken(nonce, timestamp, signature, echostr);
+pub.checkToken(nonce, timestamp, signature, echostr);
 ```
 发送模板消息
 ```javascript
-public.sendTemplate(tempObj);
+pub.sendTemplate(tempObj);
 ```
 配置自定义菜单
 ```javascript
@@ -60,15 +60,15 @@ public.changeMenu(obj);
 ```
 公众号获取永久素材列表
 ```javascript
-public.getmaterialList(type = 'news', offset = 0, count = 20);
+pub.getmaterialList(type = 'news', offset = 0, count = 20);
 ```
 获取jsapi_ticket
 ```javascript
-public.getJsapiTicket();
+pub.getJsapiTicket();
 ```
 js-sdk签名signature
 ```javascript
-public.buildSignature(url);
+pub.buildSignature(url);
 ```
 # 微信小程序 API
 wechat方法xcx都可直接调用。
@@ -78,9 +78,9 @@ const xcx = new Xcx(config);
 ```
 code2Session(获取openid)
 ```javascript
-public.getAuth(code);
+xcx.getAuth(code);
 ```
 发送模板消息
 ```javascript
-public.sendTemplate(openId, tempId, formId, contentObj, page);
+xcx.sendTemplate(openId, tempId, formId, contentObj, page);
 ```
